@@ -67,15 +67,3 @@
 // let average=cem/students.length
 // console.log(average);
 
-let data = prompt("Hello");
-let length = data.length;
-
-for (let i = 0; i < length * 2 - 1; i++) {
-  let soz = "";
-  if (i < length) {
-    soz = data.substring(0, i + 1);
-  } else {
-    soz = data.substring(0, length - (i - length + 1));
-  }
-  console.log(soz);
-}
